@@ -8,7 +8,11 @@ import java.nio.channels.ServerSocketChannel;
 import java.util.concurrent.atomic.AtomicInteger;
 import netty.example.common.NioSocket;
 
-// ref doc: Netty编程实战之：Reactor反应器模式-https://juejin.cn/post/6850418110898536461
+/*
+ref doc:
+1. Netty编程实战之：Reactor反应器模式-https://juejin.cn/post/6850418110898536461
+2. Netty编程实战之：Netty基础入门-https://juejin.cn/post/6854573210575486983
+ */
 public class NioReactorMultiThreadServer {
 
   private static final int THREAD_COUNT = 2;
